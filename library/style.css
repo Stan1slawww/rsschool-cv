@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #0C0C0E;
+    
+}
+.container{
+    display: flex;
+    max-width: 1440px;
+    max-height: 90px;
+   
+}
+.div1{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 294;
+}
+.h1{
+    color: #FFF;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+}
+
+.div2{
+    display: inline;
+}
+.nav{
+    padding-top: 20px;
+    padding-bottom: 88px;
+    padding-right: 20px;
+    padding-left: 454px;
+}
+.div3{
+    padding: 31px 20px 31px 40px;
+}
+.svg{
+    width: 28px;
+height: 28px;
+flex-shrink: 0;
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+ }
+.nav-item{
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 50px;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+    line-height: 1;
+    position: relative;
+}
+a:after{
+    display:block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    content: "";
+    background-color: chocolate;
+    transition: width 0.3s ease-out;
+}
+a:hover:after,
+a:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
