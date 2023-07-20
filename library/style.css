@@ -3,11 +3,14 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    max-width: 1440px;
+}
 .header{
     background-color: #0C0C0E;
     
 }
-.container{
+.container-header{
     display: flex;
     max-width: 1440px;
     max-height: 90px;
@@ -81,5 +84,89 @@ a:after{
 }
 a:hover:after,
 a:focus:after {
-	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+	width: 100%; 
+}
+
+/*Welcome*/
+
+.container-welcome{
+    max-width: 100%;
+    height: 600px;
+    background:linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%, rgba(18, 18, 21, 0.10) 100%), url(https://s3-alpha-sig.figma.com/img/c1ad/470e/85c1859f825ed82614b2036bc8be037f?Expires=1690761600&Signature=WMd06ffLBZ0EXDbVGhj3YRTkhfOp2ePRzUxehI~Xnb~tb7NUdCMPG7T8Qw95wCh44ynInsrZ-k80IrCxQeWle9~IYQ9mhov8WU2Goj6sLNfX5z82wWUmAM0MJbX0kAR0oRhQoHeixoRQn6GX2ZU~EtcBeXLFsG~sPy0rfkD-kTf4FBuns86OwhJ3XM6wrZ2GyEtLLsDWOFJtRGxu4SFzJ2FFs5Bvn9KKf2x6kJyzJu70XeE5b5-PMZA06AsRSOTcpRg5cMxsrqDOgS4COayBM-A9yNqg0wHu1YtLReLqb01eO~hRzYnl70XbE0KBeDLEU8oJ8AfcTbqZ02T2BAKaHQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome-div{
+    display: flex;
+width: 600px;
+height: 220px;
+padding: 35px 40px;
+justify-content: center;
+align-self: center;
+flex-shrink: 0;
+background: #0C0C0E;
+padding: 220px;
+}
+.text-welcome{
+    display: flex;
+flex-wrap: inherit;
+justify-content: center;
+width: 520px;
+height: 150px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Forum;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 50px;  
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+
+/*About*/
+
+.section-about{
+    width: 1440px;
+    height: 837px;
+}
+.div1-about{
+    width: 106px;
+    height: 61px;
+    flex-shrink: 0;
+    padding-left: 667px;
+    padding-top: 20px;
+}
+.text-about{
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.div-hr{
+    padding-top: 20px;
+    padding-left: 28px;
+}
+hr{
+    width: 50px;
+height: 1px;
+flex-shrink: 0;
+}
+.div-about-line{
+    width: 100%;
+    padding-top: 61px;
+}
+.text-about-second{
+    color: #000;
+   text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
 }
