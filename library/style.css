@@ -123,7 +123,6 @@ font-weight: 400;
 line-height: 50px;  
 letter-spacing: 3px;
 text-transform: uppercase;
-
 }
 
 /*About*/
@@ -192,10 +191,410 @@ line-height: 40px;
     background: #0C0C0E;
     border-radius: 50%;
     border: none;
+    cursor: pointer;
 }.button-about-first{
     width: 16px;
     height: 16px;
     background: #BB945F;
     border-radius: 50%;
     border: none;
+    cursor: pointer;
 }
+
+/*Favorites*/
+
+.section-favorites{
+    max-width: 100%;
+    height: 1440px;
+}
+.div1-fs{
+    width: 160px;
+    height: 61px;
+    flex-shrink: 0;
+    padding-left: 635px;
+    padding-top: 20px;
+}
+.h2-fs{
+    color: #0C0C0E;
+font-family: Forum;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-transform: capitalize;
+}
+.hr-fs{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.div2-fs{
+width: 100%;
+padding-top: 60px;
+padding-left: 20px;
+}
+.text-fs{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.div3-fs{
+    padding-left: 20px;
+    padding-top: 45px;
+    
+}
+.input-fs{
+    width: 17px;
+    height: 17px;
+    flex-shrink: 0;
+}
+.label-fs{
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-right: 90px
+}
+.div4-fs-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;    
+    height: 1150px;
+    flex-shrink: 0;
+    margin: 40px 20px;
+}
+
+/* book1 */
+
+.div5-books1{
+    position: relative;
+    max-width: 50%;
+    width: 550px;
+    height: 550px;
+    border: 1px solid #000;
+    background: #FFF;
+}
+.img-book1{
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 249px;
+    
+}
+.book1-div1{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.book1-h3{
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.book-hr{
+    color: #BB945F;
+    width: 60px;
+    height: 1;
+}
+.book1-div2{
+padding-top: 20px;
+padding-left: 20px;
+}
+.book1-author{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.book1-div3{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 355px;
+}
+.book1-text{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.book1-div4{
+padding-top: 10px;
+padding-left: 20px;
+}
+.book1-button{
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+/* book2 */
+
+.div5-books2{
+    position: relative;
+    max-width: 50%;
+    width: 550px;
+    height: 550px;
+    border: 1px solid #000;
+    background: #FFF;
+    margin-left: 260px;
+}
+.img-book2{
+    position: absolute;
+    margin-left: 388px;
+    margin-top: 249px;
+}
+.book2-div1{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.book2-h3{
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.book-hr{
+    color: #BB945F;
+    width: 60px;
+    height: 1;
+}
+.book2-div2{
+padding-top: 20px;
+padding-left: 20px;
+}
+.book2-author{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.book2-div3{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 355px;
+}
+.book2-text{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.book2-div4{
+padding-top: 50px;
+padding-left: 20px;
+}
+.book2-button{
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+/* book3 */
+
+.div5-books3{
+    position: relative;
+    max-width: 50%;
+    width: 550px;
+    height: 550px;
+    border: 1px solid #000;
+    background: #FFF;
+}
+.img-book3{
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 249px;
+}
+.book3-div1{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.book3-h3{
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.book-hr{
+    color: #BB945F;
+    width: 60px;
+    height: 1;
+}
+.book3-div2{
+padding-top: 20px;
+padding-left: 20px;
+}
+.book3-author{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.book3-div3{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 355px;
+}
+.book3-text{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.book3-div4{
+padding-top: 10px;
+padding-left: 20px;
+}
+.book3-button{
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+/* book4 */
+
+.div5-books4{
+    position: relative;
+    max-width: 50%;
+    width: 550px;
+    height: 550px;
+    border: 1px solid #000;
+    background: #FFF;
+    margin-left: 260px;
+}
+.img-book4{
+    position: absolute;
+    margin-left: 388px;
+    margin-top: 249px;
+}
+.book4-div1{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.book4-h3{
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.book-hr{
+    color: #BB945F;
+    width: 60px;
+    height: 1;
+}
+.book4-div2{
+padding-top: 20px;
+padding-left: 20px;
+}
+.book4-author{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.book4-div3{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 355px;
+}
+.book4-text{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.book4-div4{
+padding-top: 130px;
+padding-left: 20px;
+
+}
+.book4-button{
+    color: #BB945F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    width: 75px;
+    height: 30px;
+    border-radius: 2px;
+border: 1px solid #BB945F;
+}
+
