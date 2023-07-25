@@ -786,3 +786,151 @@ margin-bottom: 20px;
     width: 696px;
     height: 414px;
 }
+
+/* Library Card */
+
+.section-cards{
+    width: 1440px;
+height: 614px;
+}
+
+.h2-card{
+    color: #0C0C0E;
+text-align: center;
+font-family: Forum;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 100% */
+letter-spacing: 2px;
+text-transform: capitalize;
+}
+.hr-card{
+    margin-left: 670px;
+    margin-top: 20px;
+}
+.container-card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.div-find-card{
+    width: 600px;
+    height: 453px;
+    flex-shrink: 0;
+}
+.h5-find-card{
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.div-for-border{
+    width: 600px;
+    height: 386px;
+    flex-shrink: 0;
+    border: 3px solid #BB945F;
+    background: #FFF;
+}
+.div-card-body{
+    width: 560px;
+    height: 272px;
+    flex-shrink: 0;
+    background: #BB945F;
+    margin: 20px 20px 0px 20px;
+}
+.text-card-body{
+    color: #000;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.placeholder{
+    color: #8E8E8E;
+font-family: Forum;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 50px; /* 166.667% */
+letter-spacing: 0.6px;
+border-radius: 8px;
+margin: 0px 20px 25px 20px;
+padding: 8px 0 8px 20px;
+}
+.batton-card-border{
+    display: inline-flex;
+padding: 10px 40px;
+align-items: flex-end;
+border-radius: 2px;
+border: 1px solid #0C0C0E
+}
+.button-card-body{
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    border-radius: 2px;
+border: 1px solid #0C0C0E;
+    padding: 10px 40px;
+    margin-top: 20px;
+    margin-left: 179px;
+}
+.div-card-text{
+    text-align: right;
+    margin-left: 344px;
+    width: 456px;
+}
+.h5-card-text{
+    color: #000;
+font-family: Forum;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.6px;
+}
+.card-text{
+    color: #000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+}
+.button-card-text{
+    color: #0C0C0E;
+text-align: center;
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+width: 75px;
+height: 30px;
+padding: 10px 0px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+margin-left: 20px;
+}
