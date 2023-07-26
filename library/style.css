@@ -977,16 +977,20 @@ line-height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1147px;
+    gap: 1130px;
 }
 .div1-footer-icon{
     display: flex;
-width: 102px;
+width: 150px;
 height: 24px;
 justify-content: center;
 align-items: flex-start;
 gap: 15px;
-margin-left: 30px;
+
+}
+
+.list-item-footer{
+    display: inline;
 }
 .footer-icon{
     width: 24px;
