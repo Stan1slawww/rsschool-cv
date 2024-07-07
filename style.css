@@ -103,6 +103,7 @@ html{
 .hr{
     width: 200px;
     border: 2px solid;
+    margin-top: -100px;
 }
 .link-contacts{
     text-decoration: none;
