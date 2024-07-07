@@ -24,6 +24,8 @@ html{
 .cv-image{
     margin-left: 30px;
     margin-top: 5px;
+    width: 70px;
+    height: 70px;
 }
 
 .nav-list{
@@ -62,6 +64,10 @@ html{
     flex-wrap: wrap;
     background-color: #f3d2d291;
 }
+.div-first-section{
+    width: 45%;
+    margin: 10px 30px;
+}
 .section{
     width: 45%;
     margin: 10px 30px;
@@ -81,6 +87,8 @@ html{
 .profile-image{
     border-radius: 100px;
     margin-left: 100px;
+    width: 300px;
+    height: 300px;
 } 
 
 .h1-title{
@@ -137,7 +145,7 @@ list-style-image: url(assets/icon/icons8-discord-24.png);
     padding: 10px 40px;
     background-color: #f0ae5d;
 }
-.section-footer{
+.div-section-footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -157,4 +165,8 @@ list-style-image: url(assets/icon/icons8-discord-24.png);
 }
 .div2-footer{
     margin-right: 20px;
+}
+.rs-school-logo{
+    width: 100px;
+    height: 100px;
 }
